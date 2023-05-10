@@ -1,0 +1,17 @@
+{
+  "type": "cosmos",
+  "value": {
+    "key": "relayer-hub-key",
+    "chain-id": "local-testnet",
+    "rpc-addr": "tcp://127.0.0.1:36657",
+    "account-prefix": "fury",
+    "keyring-backend": "test",
+    "gas-adjustment": 1.2,
+    "gas-prices": "0.25ufury",
+    "debug": true,
+    "timeout": "10s",
+    "output-format": "json",
+    "sign-mode": "direct",
+    "client-type": "07-tendermint"
+  }
+}
